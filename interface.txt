@@ -1,0 +1,18 @@
+Command Line Interface challenge
+* mkdir to create a new folder, to make that folder hidden
+we add a dot (.) at the begining of the name
+mkdir .example.txt
+to display it in CLI use the command ls -a 
+
+* to create a multiple nested directories use mkdir -p
+mkdir -p c/just/for/fun
+
+* to append a message to file without newline character
+echo first message > file.txt
+echo -n file.txt
+echo second message >> file.txt
+echo -n file.txt
+cat file.txt
+output :
+first message
+second message

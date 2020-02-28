@@ -1,0 +1,217 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;  
+        
+    }
+    .head{ 
+        height: 1000px;
+        background-color: #1f2833;
+    }
+    .name h5{
+            color: #66fcf1;
+            margin-left: 15px;
+            font-family: Dancing Script;
+            
+        }
+    .name h5::before{
+            content: 'A';
+            background-color: white;
+            color: #66fcf1;
+            font-size: 30px;
+            margin: 2px;
+            border-radius: 100%;
+        
+        }
+    .name h1{
+            color: #66fcf1;
+            margin-top: 100px;
+            margin-left: 300px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 60px;   
+        }
+
+    .about img{
+        height: 400px;
+        width: 250px;
+        float: right;
+    border-radius: 20px;
+        box-shadow: -8px -12px 30px 5px #66fcf1;
+        margin-right: 200px;
+        
+    }
+    .about h2{
+        margin-left: 300px;
+        margin-top: 300px;
+        color: #66fcf1;
+        font-size: 15px;  
+    }
+    .about p{
+        font-family: cursive;
+        width: 450px;
+        margin-left: 300px;
+        line-height: 2.5em;
+        text-align: justify;
+        margin-top: 10px;
+        color: white; 
+    }
+    .about p:hover{
+        color: #66fcf1;
+    }
+    .so-icon{
+        margin-top: 160px;
+        margin-left: 30%;
+    }
+    .so-icon ul li{
+        display: inline-block;
+        text-decoration-style: none;
+        padding: 20px;
+    }
+    .so-icon ul li:hover{
+        background-color: #112d32;
+    }
+    .so-icon ul li i{
+        padding: 5px;
+    color: #66fcf1;
+    background-color:  #1f2833;
+    }
+    .pe{
+        display: flex;
+    }
+    .myskills{
+        flex: 1;
+        background-color: #112d32;;
+        padding-top: 90px;
+        padding-left: 150px;
+    }
+    .myskills h2{
+        font-size: 15px;
+        color: #a4b3b6;
+        
+    }
+    
+    .myskills h2 i{
+        padding: 4px;
+        color:#66fcf1;
+    }
+    .myskills li{
+    line-height: 3em;
+    margin-left: 50px;
+    list-style-type: none;
+    color: white;
+    }
+    .item{
+        width: 300px;
+        background-color:#1f2833;
+        display: block;
+        height: 3px;
+        border: solid 1px rgb(0,0,0,0,3);
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 5px white;
+    }
+    .item span{
+        height: 5px;
+        float: left;
+        background-color: #66fcf1;;
+    }
+    .ht{
+        width: 60%;
+    }
+    .cs{
+        width: 50%;
+    }
+    .ph{
+        width: 70%;
+    }
+    .personal{
+        background-color: #112d32;
+        flex: 1;
+        padding-top: 90px;
+        padding-left: 50px;
+    }
+    .personal{
+        line-height: 2.5em;
+    }
+
+    .personal h2{
+    font-size: 15px;
+        color: #a4b3b6;
+    
+    }
+    .personal h2 i{
+    padding: 4px;
+    color:#66fcf1;
+
+    }
+    ul#details {
+    color: white;
+    margin-left: 40px;
+    }
+    .personal ul li{
+        list-style-type: none;
+        
+    }
+    .personal ul li span{
+        
+        padding: 40px;  
+    }
+    .education{
+        line-height: 2.5em;
+        padding-top: 70px;
+        background-color: #112d32;
+    }
+
+    .education h2{
+    font-size: 15px;
+    margin-left: 56%;
+        transform: translate(-50%, -50%);
+        color: #a4b3b6;
+    
+    }
+    .education h2 i{
+    padding: 4px;
+    color:#66fcf1;
+    }
+    ul#edu {
+    color: white;
+    margin-left: 450px;
+    }
+    .education ul li{
+        list-style-type: none;
+        
+    }
+    .education ul li span{
+        
+        padding: 40px;  
+    }
+
+    .work{
+        background-color: #112d32;
+        height: 300px;
+        line-height: 2.5em;
+        padding-top: 70px;
+    }
+    .work h2{
+        font-size: 15px;
+        margin-left: 56%;
+        transform: translate(-50%, -50%);
+        color: #a4b3b6;
+    }
+    
+    .work h2 i{
+    padding: 4px;
+    color:#66fcf1;
+    }
+    ul#wo {
+    color: white;
+    margin-left: 450px;
+    }
+    .work ul li{
+        list-style-type: none;
+        
+    }
+    .work ul li span{
+        
+        padding: 40px;  
+    }
